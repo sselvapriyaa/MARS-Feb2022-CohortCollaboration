@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MARS-Feb2022-CohortCollaboration/static/css/main.bc857fca.css",
-    "main.js": "/MARS-Feb2022-CohortCollaboration/static/js/main.aed5723b.js",
+    "main.js": "/MARS-Feb2022-CohortCollaboration/static/js/main.f4e51e41.js",
     "static/js/787.5e9bd520.chunk.js": "/MARS-Feb2022-CohortCollaboration/static/js/787.5e9bd520.chunk.js",
     "static/media/Naga_Priya_Img_2.png": "/MARS-Feb2022-CohortCollaboration/static/media/Naga_Priya_Img_2.3621490fc206e540b3a6.png",
     "static/media/ColtonW.jpg": "/MARS-Feb2022-CohortCollaboration/static/media/ColtonW.ccf8539d1b4a5342017c.jpg",
@@ -20,11 +20,11 @@
     "static/media/RichardF.jpg": "/MARS-Feb2022-CohortCollaboration/static/media/RichardF.7a73db9a767eaaa15eb7.jpg",
     "index.html": "/MARS-Feb2022-CohortCollaboration/index.html",
     "main.bc857fca.css.map": "/MARS-Feb2022-CohortCollaboration/static/css/main.bc857fca.css.map",
-    "main.aed5723b.js.map": "/MARS-Feb2022-CohortCollaboration/static/js/main.aed5723b.js.map",
+    "main.f4e51e41.js.map": "/MARS-Feb2022-CohortCollaboration/static/js/main.f4e51e41.js.map",
     "787.5e9bd520.chunk.js.map": "/MARS-Feb2022-CohortCollaboration/static/js/787.5e9bd520.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bc857fca.css",
-    "static/js/main.aed5723b.js"
+    "static/js/main.f4e51e41.js"
   ]
 }
