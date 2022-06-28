@@ -25,12 +25,11 @@ import woman_at_desktop from "../images/woman_at_desktop.jpg";
 import career_in_tech from "../images/career_in_tech.jpg";
 
 import technology1 from "../images/technology1.jpg";
-import Banner_Image from "../images/Banner_Image.jpg"
+import Banner_Image from "../images/Banner_Image.jpg";
 import Banner_Image1 from "../images/Banner_Image1.jpg";
 import Banner_Image2 from "../images/Banner_Image2.jpg";
 
-
-import ColtonW from "../images/ColtonW.jpg"
+import ColtonW from "../images/ColtonW.jpg";
 import LynnR from "../images//LynnR.jpg";
 import RichardF from "../images/RichardF.jpg";
 import HeidiW from "../images/HeidiW.jpg";
@@ -43,7 +42,11 @@ function Home(props) {
     <div>
       <Carousel>
         <Carousel.Item>
-          <img className="d-block w-100" src={technology1} alt="FirstCarousel" />
+          <img
+            className="d-block w-100"
+            src={technology1}
+            alt="FirstCarousel"
+          />
           <Carousel.Caption>
             <h3 style={{ color: "white" }}>MARS RETURNSHIP</h3>
             <p style={{ color: "white" }}>
@@ -95,8 +98,6 @@ function Home(props) {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-      
-
 
       <br />
       {/* Personal Cards - Row 1 */}
@@ -157,8 +158,7 @@ function Home(props) {
                   <Card.Title>Heidi</Card.Title>
                 </Link>
                 <Card.Text>
-                  Excited to transition to tech after a pandemic-ridden stint at
-                  a think tank in Germany.
+                  Linguistics grad excited to transition to tech!
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -167,14 +167,12 @@ function Home(props) {
         </Row>
       </Container>
 
-
       <br />
 
       {/* Personal Cards - Row 2 */}
       <Container>
         <Row xs={1} md={2} lg={4} className="g-4">
-          
-        <Col>
+          <Col>
             <Card>
               <Card.Img className="rounded-circle" variant="top" src={AnnieW} />
               <Card.Body>
@@ -182,27 +180,26 @@ function Home(props) {
                   <Card.Title>Annie</Card.Title>
                 </Link>
                 <Card.Text>
-                  Worked as a Web Developer. Designed and Developed user friendly dynamic Webpages using PHP.
+                  Worked as a Web Developer. Designed and Developed user
+                  friendly dynamic Webpages using PHP.
                 </Card.Text>
               </Card.Body>
             </Card>
           </Col>
           <Col>
-            
             <Card>
-              <Card.Img
-                className="rounded-circle"
-                variant="top"
-                src={NagaK}
-              />
+              <Card.Img className="rounded-circle" variant="top" src={NagaK} />
               <Card.Body>
-              <Link to="/NagaPriya">
-                <Card.Title>Naga Priya K</Card.Title>
+                <Link to="/NagaPriya">
+                  <Card.Title>Naga Priya K</Card.Title>
                 </Link>
-                <Card.Text>Full Stack Intern, Experienced in Software Development and Testing.</Card.Text>
+                <Card.Text>
+                  Full Stack Intern, Experienced in Software Development and
+                  Testing.
+                </Card.Text>
               </Card.Body>
             </Card>
-            </Col>
+          </Col>
           <Col>
             {/* <Link to="/YourComponentName"> */}
             <Card>
@@ -212,9 +209,8 @@ function Home(props) {
                 src={SelvapriyaA}
               />
               <Card.Body>
-              <Link to="/Selvapriya">
-             
-                <Card.Title>Selvapriya</Card.Title>
+                <Link to="/Selvapriya">
+                  <Card.Title>Selvapriya</Card.Title>
                 </Link>
                 <Card.Text>Experience in full stack web development</Card.Text>
               </Card.Body>
@@ -236,7 +232,6 @@ function Home(props) {
             </Card>
             {/* </Link> */}
           </Col>
-          
         </Row>
       </Container>
     </div>
