@@ -37,6 +37,8 @@ import HeidiW from "../images/HeidiW.jpg";
 import NagaK from "../images/Naga_Priya_Img_2.png";
 import AnnieW from "../images/AnnieW.jpg";
 import SelvapriyaA from "../images/SelvapriyaA.jpg";
+import Greeshma from "../images/Greeshma-PP.jpg";
+
 
 function Home(props) {
   return (
@@ -227,11 +229,14 @@ function Home(props) {
               <Card.Img
                 className="rounded-circle"
                 variant="top"
-                src={mountains1}
+                src={Greeshma}
               />
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>Short Description</Card.Text>
+              <Link to="/Greeshma">
+
+                <Card.Title>Greeshma</Card.Title>
+                </Link>
+                <Card.Text>Worked as a Software Developer.</Card.Text>
               </Card.Body>
             </Card>
             {/* </Link> */}
