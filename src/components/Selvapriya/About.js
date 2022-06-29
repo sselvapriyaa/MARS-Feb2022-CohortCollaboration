@@ -5,7 +5,11 @@ import 'AboutSelvapriya.css'
 function About(props) {
     return (
         <div className = "text-center">
-            <h1 className = "heading">Welcome to my Page</h1>
+            <h1 className = "heading">  </h1>
+                <h5 >Hello, I'm</h5> 
+                <h1>Selvapriya</h1>
+                <h5>Fullstack Developer</h5>
+                
             <img src={SelvapriyaA} alt="picture of Selvapriya A "></img>
         <p className = "para-one">
        I am a Full-Stack Web Developer with experience in HTML5, CSS3, JavaScript, React JS.
