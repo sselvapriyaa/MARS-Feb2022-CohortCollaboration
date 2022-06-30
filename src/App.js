@@ -20,6 +20,8 @@ import Colton from "./components/Colton/Colton";
 import AboutHeidi from "./components/Heidi/AboutHeidi";
 import AboutNaga from "./components/NagaPriya/AboutNaga";
 import AboutAnnie from "./components/Annie/AboutAnnie";
+import AboutGreeshma from "./components/Greeshma/AboutGreeshma";
+
 // temporary background photos
 import mountains1 from "./images/mountains1.jpg";
 import mountains2 from "./images/mountains2.jpg";
@@ -69,7 +71,7 @@ function App() {
                      Selvapriya A 
                   </NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item href="">Another Returner</NavDropdown.Item>
+                  <NavDropdown.Item href="./#/Greeshma">Greeshma</NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item href="">Another Returner</NavDropdown.Item>
                 </NavDropdown>
@@ -112,6 +114,10 @@ function App() {
           <Route
             path="/NagaPriya"
             element={<AboutNaga/>}
+            />
+          <Route
+            path="/Greeshma"
+            element={<AboutGreeshma/>}
             />
 
 
