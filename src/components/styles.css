@@ -6,9 +6,27 @@
     height: 35pc;
 }
 .card{
-    height: 400px;
+    height: 375px;
+    padding: 5px;
 }
-.card img{
-    width: 100%;
-    height: 15pc;
+.card:hover{
+    opacity: 0.9;    
+    box-shadow: 1px 1px 3px;
+    transition: 0.5s;
+    transform: scale(1.03);
+}
+.card img {
+    width: 98%;
+    height: 14pc;
+}
+
+.card a {
+    text-decoration: none !important;
+}
+.card-text{
+    color:darkslategrey;
+    
+}
+.card-title{
+    text-decoration: underline;
 }
