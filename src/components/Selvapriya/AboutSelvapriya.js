@@ -1,23 +1,75 @@
 import React from 'react';
 import SelvapriyaA from '../../images/SelvapriyaA.jpg'
-
+//import './AboutSelvapriya.css'
+import '../About.css';
+//import Container  from 'react-bootstrap/Container';
 
 function AboutSelvapriya(props) {
-    return (
-        <div style = {{backgroundColor: "#122240", padding: "30px"}}>
-            <h1 style = {{fontSize: "20px", color: "#c0a98e"}}>Welcome to my Page</h1>
-            <img src={SelvapriyaA} alt="picture of Selvapriya A "  
-            width = "250" height = "250px"></img>
-        <p style ={{ fontSize: "15px", color: "#c0a98e"}}>
-       I am a Full-Stack Web Developer with experience in HTML5, CSS3, JavaScript, React JS.
-       I am passionate about learning new programming languages. I enjoy working on collaborative teams.
-      </p>
-      <p style ={{ fontSize: "10px", color: "#c0a98e"}}>
+    return (  
+        <div className = "text-center">     
+          <header className = "heading">
+                <h5>Get to Know</h5>
+                <h2>About Me</h2>
+        </header> 
+       
+         <section className = "pagelayout"> 
+         <div className = "section1">   
+            <img src={SelvapriyaA} alt="picture of Selvapriya A "></img>
+          </div>
 
-          Copyright &copy; 2022
+          <div className = "section2">    
+       I am a Full-Stack Web Developer with experience in HTML5, CSS3, JavaScript, React JS.
+       I am passionate about learning new programming languages. I enjoy working on collaborative teams.   
+      </div>
+
+      <div className = "section3">    
+        Phone: 414 573 6665 <br></br>
+        Email: selvapriyaphd@gmail.com<br></br>
+        Portfolio website:      
+      </div>
+      <div className = "section4">    
+        <a href = "https://www.linkedin.com/in/selvapriyaanandamirtharaj/" alt ="google drive resume"  
+        >Resume </a>
+       
+      </div>
+      </section>  
+      
+      <footer className = "social-mediaicons" >
+      <p className = "icon1">
+        <a href = "https://www.linkedin.com/in/selvapriyaanandamirtharaj/" alt = "linkedin link"
+        target = "_blank"
+        >  
+        <i class="bi bi-linkedin"></i>
+          </a>     
       </p>
-       </div>      
+      <p className = "icon2">
+        <a href = "" alt = "facebook link"
+        target = "_blank"
+        >  
+        <i class="bi bi-facebook"></i>
+          </a>     
+      </p>
+      <p className = "icon3">
+        <a href = "" alt = "instagram link"
+        target = "_blank"
+        > 
+      <i class="bi bi-instagram"></i>
+      </a>     
+      </p>     
+      <p className = "icon4">
+        <a href = "https://github.com/sselvapriyaa" alt = "github link"
+        target = "_blank"
+        > 
+        <i class="bi bi-github"></i>
+        </a> 
+        </p>
+        
+      <p className = "copyright">
+      Copyright &copy; 2022
+        </p>  
+        </footer>
+    </div>
+  
     );
 }
-
 export default AboutSelvapriya;
