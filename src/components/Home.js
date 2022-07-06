@@ -155,7 +155,7 @@ function Home(props) {
             <Card>
               <Link to="/Lynn">
                 <Card.Img
-                  className="rounded-circle img-fluid"
+                  className="rounded-circle"
                   // style={{
                   //   objectFit: "cover",
                   // }}
