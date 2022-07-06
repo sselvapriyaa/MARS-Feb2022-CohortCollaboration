@@ -33,3 +33,9 @@
 .card-title {
   text-decoration: underline;
 }
+.card-title:hover {
+  text-decoration: underline;
+}
+.container {
+  font-size: 16px;
+}
