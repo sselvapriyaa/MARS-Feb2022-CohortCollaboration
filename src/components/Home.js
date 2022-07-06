@@ -24,7 +24,7 @@ import Banner_Image2 from "../images/Banner_Image2.jpg";
 //Returners photos
 // import ColtonW from "../images/ColtonW.jpg";
 import LynnR from "../images//LynnR.jpg";
-import RichardF from "../images/RichardF.jpg";
+// import RichardF from "../images/RichardF.jpg";
 import HeidiW from "../images/HeidiW.jpg";
 import AnnieW from "../images/AnnieW.jpg";
 import NagaK from "../images/Naga_Priya_Img_2.png";
@@ -133,7 +133,7 @@ function Home(props) {
       <br />
       {/* Personal Cards - Row 1 */}
       <Container>
-        <Row xs={1} md={2} lg={4} className="g-4">
+        <Row xs={1} md={2} lg={3} className="g-4">
           {/* <Col>
           <Card>
             <Link to="/Colton">              
@@ -155,10 +155,10 @@ function Home(props) {
             <Card>
               <Link to="/Lynn">
                 <Card.Img
-                  className="rounded-circle"
-                  style={{
-                    objectFit: "cover",
-                  }}
+                  className="rounded-circle img-fluid"
+                  // style={{
+                  //   objectFit: "cover",
+                  // }}
                   variant="top"
                   src={LynnR}
                 />
@@ -173,7 +173,7 @@ function Home(props) {
             </Card>
           </Col>
 
-          <Col>
+          {/* <Col>
             <Card>
               <Link to="/Richard">
                 <Card.Img
@@ -192,16 +192,16 @@ function Home(props) {
                 </Card.Body>
               </Link>
             </Card>
-          </Col>
+          </Col> */}
 
           <Col>
             <Card>
               <Link to="/Heidi">
                 <Card.Img
                   className="rounded-circle"
-                  style={{
-                    objectFit: "cover",
-                  }}
+                  // style={{
+                  //   objectFit: "cover",
+                  // }}
                   variant="top"
                   src={HeidiW}
                 />
@@ -220,9 +220,9 @@ function Home(props) {
               <Link to="/Annie">
                 <Card.Img
                   className="rounded-circle"
-                  style={{
-                    objectFit: "cover",
-                  }}
+                  // style={{
+                  //   objectFit: "cover",
+                  // }}
                   variant="top"
                   src={AnnieW}
                 />
@@ -243,15 +243,15 @@ function Home(props) {
 
       {/* Personal Cards - Row 2 */}
       <Container>
-        <Row xs={1} md={2} lg={4} className="g-4">
+        <Row xs={1} md={2} lg={3} className="g-4">
           <Col>
             <Card>
               <Link to="/NagaPriya">
                 <Card.Img
                   className="rounded-circle"
-                  style={{
-                    objectFit: "cover",
-                  }}
+                  // style={{
+                  //   objectFit: "cover",
+                  // }}
                   variant="top"
                   src={NagaK}
                 />
@@ -271,9 +271,9 @@ function Home(props) {
               <Link to="/Selvapriya">
                 <Card.Img
                   className="rounded-circle"
-                  style={{
-                    objectFit: "cover",
-                  }}
+                  // style={{
+                  //   objectFit: "cover",
+                  // }}
                   variant="top"
                   src={SelvapriyaA}
                 />
@@ -293,9 +293,9 @@ function Home(props) {
               <Link to="/Greeshma">
                 <Card.Img
                   className="rounded-circle"
-                  style={{
-                    objectFit: "cover",
-                  }}
+                  // style={{
+                  //   objectFit: "cover",
+                  // }}
                   variant="top"
                   src={Greeshma}
                 />
