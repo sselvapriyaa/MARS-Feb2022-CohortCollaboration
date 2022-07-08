@@ -10,7 +10,7 @@
   height: 35pc;
 }
 .card {
-  height: 375px;
+  height: 420px;
   padding: 5px;
 }
 .card:hover {
@@ -20,8 +20,8 @@
   transform: scale(1.03);
 }
 .card img {
-  width: 98%;
-  height: 14pc;
+  width: 85%;
+  height: 17pc;
 }
 
 .card a {

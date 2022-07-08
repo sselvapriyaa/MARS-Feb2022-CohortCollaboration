@@ -10,7 +10,7 @@ section.pagelayout {
   gap: 20px 40px;
   grid-template-columns: 2fr 3fr;
   grid-template-rows: 2fr;
-  /* padding: 20px; */
+  padding: 20px;
 }
 
 a:link {
