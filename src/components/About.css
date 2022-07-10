@@ -1,47 +1,103 @@
-
-.text-center{       
-    padding: 30px;
+.text-center {
+  padding: 30px;
 }
-.heading{  
+/* .heading{  
     color: #c0a98e;
   
-}
-section.pagelayout{
-    display: grid;
-    gap: 10px;
-    grid-template-columns: 2fr 4fr;
-    grid-template-rows: 2fr;  
-    font-size: 25px;     
-}
-
-a:link{   
-    text-decoration: none;
-}
-.socialmedia{   
-    display: flex;
-    flex-direction: row; 
-    justify-content: center;
-    column-gap: 30px;
-    font-size: 30px; 
-    padding: 20px;
-   
-}
-.bi-facebook{
-    color: #1877f2;
-}
-.bi-instagram{
-    color: #fb3958;
-   
-}
-.bi-linkedin{
-    color: #0e76a8 ;
-    
-}
-.bi-github{
-    color: #00acee;
-}
-.copyright{
-    font-size: 25px;
+} */
+section.pagelayout {
+  display: grid;
+  gap: 20px 40px;
+  grid-template-columns: 2fr 3fr;
+  grid-template-rows: 2fr;
+  padding: 20px;
 }
 
+a:link {
+  text-decoration: none;
+}
+.socialmedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 30px;
+  font-size: 30px;
+  /* padding: 20px; */
+  height: 45px;
+}
+.bi-facebook {
+  color: #1877f2;
+}
+.bi-instagram {
+  color: #fb3958;
+}
+.bi-linkedin {
+  color: #0e76a8;
+}
+.bi-github {
+  color: #00acee;
+}
+.bi-envelope-fill {
+  color: #b431ce;
+}
+.copyright {
+  font-size: 14px;
+  text-align: center;
+}
 
+/*  */
+.about_container {
+  padding: 20px 0px;
+  text-align: left;
+}
+.about_container header {
+  text-align: center;
+  padding: 10px;
+  text-transform: uppercase;
+  background: darkkhaki;
+  border-radius: 50px 10px;
+  margin: 20px 0px 30px;
+}
+.section1 img {
+  border: 10px solid lightgrey;
+  border-radius: 20px;
+  box-shadow: 2px 3px 4px grey;
+}
+.section2 h3,
+.section2 h4 {
+  color: darkslategray;
+}
+.section2 ul > li a:hover {
+  color: darkgreen;
+  text-decoration: underline;
+}
+.section4 {
+  text-align: center;
+  padding: 35px;
+  background: gainsboro;
+  border-radius: 5px;
+  height: 7em;
+}
+.section4 a:hover {
+  color: crimson;
+  text-decoration: underline;
+}
+footer {
+  background: #262626;
+  padding: 20px;
+  color: white;
+}
+.bi-facebook:hover,
+.bi-instagram:hover,
+.bi-linkedin:hover,
+.bi-github:hover,
+.bi-envelope-fill:hover {
+  color: white;
+}
+
+/* Responsive layout */
+@media (orientation: portrait) {
+  section.pagelayout {
+    grid-template-columns: 1fr;
+  }
+}
