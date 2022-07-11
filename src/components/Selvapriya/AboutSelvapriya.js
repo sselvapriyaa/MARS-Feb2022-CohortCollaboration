@@ -23,20 +23,36 @@ function AboutSelvapriya(props) {
           </div>
 
           <div className="section2">
-            <h3>About Selvapriya</h3>I am a Full-Stack Developer with experience
+            <h3>About Selvapriya</h3>
+            <p>I am a Full-Stack Developer with experience
             in Java, React JS, MS SQL. I have a Masters Degree in Computer
-            Science. I am ready for a more challenging project.
-          </div>
+            Science. Previously, I worked as a Web Developer Intern.
+            </p>
+            <p>
+            Worked in an Agile environment, served as Scrum Master, 
+            and performed Sprint presentations in monthly Sprint Retrospective.
+            </p>
+            <div>
+              <h4>Some of my works are:</h4>
+              <ul>
+                  <li><a href = "https:/sselvapriyaa.github.io/MARS-Feb2022-CohortCollaboration/" target="blank">Project 1</a></li>
+                  <li><a href = " " target="blank"></a>Project 2</li>
+                  <li><a href = " " target="blank"></a>Project 3</li>      
+              </ul>
+            </div>
 
+            </div>
           <div className="section3">
-            Phone: 414 573 6665 <br></br>
-            Email: selvapriyaphd@gmail.com<br></br>
-            Portfolio website:
+           <h3>Contact</h3>
+           <p>Phone : <a href="tel:123456789">123456789</a></p>
+           <p>email : <a href="mailto:selvapriyaphd@gmail.com"> selvapriyaphd@gmail.com </a></p>
+           <p>URL: <a href ="#">Selvapriya's Portfolio</a></p> 
+            
           </div>
           <div className="section4">
             Click here: {""}
             <a
-              href="https://www.linkedin.com/in/selvapriyaanandamirtharaj/"
+              href="https://bit.ly/3nSwxJS"
               alt="google drive resume"
             >
               Resume{" "}
@@ -45,17 +61,7 @@ function AboutSelvapriya(props) {
         </section>
         <footer>
           <div className="socialmedia">
-            <p className="icon1">
-              <a href="" alt="facebook link" target="_blank">
-                <i class="bi bi-facebook"></i>
-              </a>
-            </p>
-            <p className="icon2">
-              <a href="" alt="instagram link" target="_blank">
-                <i class="bi bi-instagram"></i>
-              </a>
-            </p>
-            <p className="icon3">
+          <p className="icon1">
               <a
                 href="https://www.linkedin.com/in/selvapriyaanandamirtharaj/"
                 alt="linkedin link"
@@ -64,13 +70,18 @@ function AboutSelvapriya(props) {
                 <i class="bi bi-linkedin"></i>
               </a>
             </p>
-            <p className="icon4">
+            <p className="icon2">
               <a
                 href="https://github.com/sselvapriyaa"
                 alt="github link"
                 target="_blank"
               >
                 <i class="bi bi-github"></i>
+              </a>
+            </p>
+            <p className="icon3">
+              <a href="mailto:selvapriyaphd.gmail.com" alt="email link" target="_blank">
+              <i class="bi bi-envelope-fill"></i>      
               </a>
             </p>
           </div>
