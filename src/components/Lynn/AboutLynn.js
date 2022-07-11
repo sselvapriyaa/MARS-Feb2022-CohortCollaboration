@@ -51,7 +51,7 @@ function AboutLynn(props) {
               problem solver and have a reputation for reliability and kindness.{" "}
             </p>
             <p>
-              Please click here my{" "}
+              Please click{" "}
               <a
                 href="https://docs.google.com/document/d/1loLPX6hK8vfpOYyK_Rk-smIPBNx8Ddmjvae_ihhRWCo/edit?usp=sharing"
                 target="blank"
