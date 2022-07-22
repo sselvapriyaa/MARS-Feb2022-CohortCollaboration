@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-// // Styling \\ \\
+// Styling 
 // Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 // Personal CSS
